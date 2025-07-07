@@ -1,0 +1,234 @@
+.bless-up{
+    text-align: right;
+}
+
+.sparky{
+    align-items: center;
+    display: flex;
+}
+
+.idk-wtf{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.off-the-meter{
+    position: relative;
+    background-image: url(images/bologna.jpg);
+    height: 75vh;
+    background-size: cover;
+}
+
+.overlay1{
+    position: absolute;
+    background-color: rgba(0, 0, 94, 0.531);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.needsomemore{
+    color: #084298;
+    padding: 8px;
+}
+
+.elegance{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+
+.face-card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.seankingston{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.whatyousaid{
+    padding: 12px;
+    color: #084298;
+    background-color: #9dc4ffc7;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+.maverick{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.friends{
+    padding: 20px;
+    background-color: #bad3f970;
+    border-radius: 5px;
+}
+
+.wishyouwell, .livinglavish, .dcmarvel, .sayso, .mastersplinter, .bookbag{
+    background-color: #bad3f970;
+}
+
+.livinglavish{
+    text-align: center;
+}
+
+.ieathumans{
+    text-align: center;
+}
+
+.party{
+    padding: 15px;
+    background-color: white;
+    border-radius: 47%;
+}
+
+.prada{
+    justify-content: center;
+    display: flex;
+}
+
+.beatitv2{
+    color: #084298;
+}
+
+.shitshow{
+    padding: 9px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.271);
+}
+
+.demonhome{
+    height: 70vh;
+    background-image: url(images/jews.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.overlay2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.702);
+    height: 100%;
+    width: 100%;
+}
+
+.overft{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.iknowyou{
+    background-color: white;
+    /* margin: 8px; */
+}
+
+.mastersplinter{
+    text-align: center;
+}
+
+.packitup{
+    color: #084298;
+}
+
+/* From Uiverse.io by alexruix */ 
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.input {
+    min-height: 50px;
+    /* max-width: 150px; */
+    width: 30%;
+    padding: 0 1rem;
+    color: #000000;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: white;
+}
+  
+.button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+  
+.button--submit:hover {
+background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+border-color: #3898EC;
+outline: none;
+}
+
+.twinsay{
+    transition: all 0.3s ease-in-out;
+}
+  
+.twinsay:hover{
+    transform: scale(1.30);
+}
+
+.hitajugg:hover{
+    color: #084298;
+}
+
+.lxstk1{
+    color: #084298;
+    font-size: 40px;
+    position: fixed;
+    top: 91%;
+    right: 1%;
+    z-index: 1000;
+}
+
+.izaya{
+    border-style: solid; 
+    border-color: white; 
+    border-width: 3px;
+    text-align: center;
+    position: relative;
+}
+
+.interlude{
+    color: #084298;
+}
+
+.callofduty{
+    font-size: 30px;
+    color: white;
+    background-color: #084298;
+}
+
+.losingmymind{
+    background-color: #084298;
+    width: 20%;
+    padding: 5px;
+    border-radius: 47%;
+    position: absolute;
+    left: 40%;
+    bottom: 80%;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    z-index: 1000;
+}
