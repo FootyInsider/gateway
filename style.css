@@ -22,7 +22,7 @@
 
 .overlay1{
     position: absolute;
-    background-color: rgba(0, 0, 94, 0.531);
+    background-color: #dc354668;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -30,8 +30,9 @@
 }
 
 .needsomemore{
-    color: #084298;
+    color: #ffffff;
     padding: 8px;
+    font-size: 30px;
 }
 
 .elegance{
@@ -55,8 +56,8 @@
 
 .whatyousaid{
     padding: 12px;
-    color: #084298;
-    background-color: #9dc4ffc7;
+    color: #ffffff;
+    background-color: #dc3545;
     border-radius: 25px;
     font-weight: bold;
 }
@@ -71,12 +72,12 @@
 
 .friends{
     padding: 20px;
-    background-color: #bad3f970;
+    background-color: #faa9a970;
     border-radius: 5px;
 }
 
 .wishyouwell, .livinglavish, .dcmarvel, .sayso, .mastersplinter, .bookbag{
-    background-color: #bad3f970;
+    background-color: #faa9a970;
 }
 
 .livinglavish{
@@ -90,7 +91,9 @@
 .party{
     padding: 15px;
     background-color: white;
-    border-radius: 47%;
+    border-radius: 50%;
+    font-size: 30px;
+    box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.457);
 }
 
 .prada{
@@ -99,12 +102,12 @@
 }
 
 .beatitv2{
-    color: #084298;
+    color: #dc3545;
 }
 
 .shitshow{
     padding: 9px;
-    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.271);
+    box-shadow: 5px 5px 13px 5px rgba(0, 0, 0, 0.142);
 }
 
 .demonhome{
@@ -113,6 +116,18 @@
     background-size: cover;
     position: relative;
     text-align: center;
+    /* padding-top: 20%; */
+    /* padding-bottom: 25%; */
+}
+
+.demonhome2{
+    height: 40vh;
+    background-image: url(images/jews.jpg);
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    /* padding-top: 20%; */
+    /* padding-bottom: 25%; */
 }
 
 .overlay2{
@@ -137,7 +152,8 @@
 }
 
 .packitup{
-    color: #084298;
+    color: #dc3545;
+    font-size: 30px;
 }
 
 /* From Uiverse.io by alexruix */ 
@@ -154,7 +170,7 @@
     padding: 0 1rem;
     color: #000000;
     font-size: 15px;
-    border: 1px solid #5e4dcd;
+    border: 1px solid #dc3545;
     border-radius: 6px 0 0 6px;
     background-color: white;
 }
@@ -164,7 +180,7 @@
     padding: .5em 1em;
     border: none;
     border-radius: 0 6px 6px 0;
-    background-color: #5e4dcd;
+    background-color: #dc3545;
     color: #fff;
     font-size: 15px;
     cursor: pointer;
@@ -172,7 +188,7 @@
 }
   
 .button--submit:hover {
-background-color: #5e5dcd;
+background-color: #faa9a970;
 }
 
 .input:focus, .input:focus-visible {
@@ -189,11 +205,11 @@ outline: none;
 }
 
 .hitajugg:hover{
-    color: #084298;
+    color: #dc3545;
 }
 
 .lxstk1{
-    color: #084298;
+    color: #dc3545;
     font-size: 40px;
     position: fixed;
     top: 91%;
@@ -201,7 +217,7 @@ outline: none;
     z-index: 1000;
 }
 
-.izaya{
+ .izaya{
     border-style: solid; 
     border-color: white; 
     border-width: 3px;
@@ -210,25 +226,47 @@ outline: none;
 }
 
 .interlude{
-    color: #084298;
+    color: #dc3545;
 }
 
 .callofduty{
-    font-size: 30px;
     color: white;
-    background-color: #084298;
+    background-color: #dc354600;
+}
+
+.callofduty2{
+    font-size: larger;
+    color: white;
+    background-color: #dc354600;
 }
 
 .losingmymind{
-    background-color: #084298;
-    width: 20%;
-    padding: 5px;
-    border-radius: 47%;
+    background-color: #dc3545;
+    border-radius: 50%;
+    padding: 5%;
     position: absolute;
     left: 40%;
     bottom: 80%;
     border-color: white;
     border-style: solid;
     border-width: 4px;
-    z-index: 1000;
+    z-index: 10000; 
+} 
+
+.losingmymind2{
+    background-color: #dc3545;
+    border-radius: 50%;
+    padding: 3%;
+    position: absolute;
+    left: 45%;
+    bottom: 80%;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    z-index: 10000; 
+} 
+
+textarea{
+    resize: none;
+    width: 100%;
 }
